@@ -6,7 +6,7 @@ import './App.css'
 function BasicExample() {
   return (
     <Card
-      className="cardd rounded-xl p-5"
+      className="card rounded-xl p-5"
       style={{
         width: "13rem",
         height: "16rem",

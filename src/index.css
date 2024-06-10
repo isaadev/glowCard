@@ -80,7 +80,6 @@ button:focus-visible {
 
 .card {
   background-color: black;
-  
   box-shadow: 0 0 10px rgba(220, 199, 221, 1),
       /* white glow */
       0 0 20px rgba(220, 199, 221, 1),
@@ -107,13 +106,15 @@ button:focus-visible {
   margin-bottom: auto;
 }
 
+/* Top text - Warrant Status + Price */
 .top-text {
   color: #DCC7DD;
   font-size: 0.5rem;
 }
 
+/* Warranted Glow */
 .warrant-status {
-  text-shadow: 0 0 5px #ffffff,
+  text-shadow: 0 0 5px #19cedd,
       0 0 10px #19cedd,
       0 0 30px #19cedd,
       0 0 40px #19cedd;
