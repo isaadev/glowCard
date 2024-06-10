@@ -97,12 +97,11 @@ button:focus-visible {
   font-size: 0.6rem
 }
 
-.add-to-cart-btn-text {
+.add-to-cart-btn-text, .add-to-cart-btn-text:hover {
   color: #DCC7DD;
   font-size: 0.5rem;
   background-color: #000000;
   border-color: #DCC7DD;
-  padding: 1rem 1rem;
   margin-bottom: auto;
 }
 
@@ -120,4 +119,6 @@ button:focus-visible {
       0 0 40px #19cedd;
 }
 
-
+.cart-icon {
+  width: 1rem;
+}
