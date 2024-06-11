@@ -9,8 +9,6 @@ export default defineConfig({
     restart({
       restart: [
         "./tailwind.config.js",
-        "./node_modules/@empirica/core/dist/**/*.{js,css,jsx}",
-        "./node_modules/@empirica/core/assets/**/*.css",
       ],
     }),
     react(),

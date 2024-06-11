@@ -1,31 +1,26 @@
 import React from "react";
 import "./App.css";
-import ProductCard from "./components/ProductCard";
+import ProductCard from "./components/ProductCard.jsx";
 
-function BasicExample() {
+
+const ConsumerProductPage = () => {
+
   return (
       <>
-        <ProductCard/>
+        <div id='body-container' className='h-svh flex flex-col'>
+          <div id="top-div" className='border-2 border-red-900 h-top'>top</div>
+          <div id="middle-div" className='border-2 border-red-900 h-middle'>middle</div>
+          <div id="bottom-div" className='border-2 border-red-900 bottom-0 '>bottom</div>
+        </div>
       </>
-  );
+  )
 }
+
 
 function App() {
   return (
       <>
-        <head>
-          <link
-              href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
-              rel="stylesheet"
-          />
-        </head>
-        <div className="profile-container max-w-64 border-2 rounded-2xl position-fixed top-0">
-          Test
-        </div>
-
-        <div className="flex items-center justify-center ">
-          <BasicExample/>
-        </div>
+        <ConsumerProductPage/>
       </>
   );
 }
