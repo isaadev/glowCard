@@ -1,8 +1,5 @@
 import React from "react";
-import Button from "react-bootstrap/Button";
-import Card from "react-bootstrap/Card";
 import "./App.css";
-import cartIcon from "./cart.svg";
 import ProductCard from "./components/ProductCard";
 
 function BasicExample() {
@@ -10,7 +7,6 @@ function BasicExample() {
       <>
         <ProductCard/>
       </>
-
   );
 }
 
