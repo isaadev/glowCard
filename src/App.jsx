@@ -25,7 +25,7 @@ function BasicExample() {
         </div>
         <Button
           variant="primary"
-          className="add-to-cart-btn-text mt-2 p-3 flex items-center"
+          className="add-to-cart-btn-text mt-2 p-4 flex items-center"
         >
           <img src={cartIcon} alt="Cart" className="cart-icon mr-2" />
           Add to Cart
