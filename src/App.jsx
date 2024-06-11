@@ -9,8 +9,8 @@ const ConsumerProductPage = () => {
       <>
         <div id='body-container' className='h-svh flex flex-col'>
           <div id="top-div" className='border-2 border-red-900 h-top'>top</div>
-          <div id="middle-div" className='border-2 border-red-900 h-middle'>middle</div>
-          <div id="bottom-div" className='border-2 border-red-900 bottom-0 '>bottom</div>
+          <div id="middle-div" className='border-2 border-red-900 flex-auto grid'>middle</div>
+          <div id="bottom-div" className='border-2 border-red-900 bottom-0 w-svw h-top'>bottom</div>
         </div>
       </>
   )

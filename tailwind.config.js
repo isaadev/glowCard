@@ -6,7 +6,8 @@ export default {
     spacing: {
         'top': '5rem',
         'middle': '30rem',
-        'bottom': '5rem'
+        'bottom': '5rem',
+        '0' : '0rem'
     },
   },
   plugins: [],
