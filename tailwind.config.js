@@ -15,7 +15,7 @@ export default {
         'cardHeight': '320px',
         'profileW': '1200px',
         'maxintroCardW':'703px',
-        'maxintroCardH':'407px',
+        'maxintroCardH':'420px',
         'minintroCardH':'200px',
         'minintroCardW':'200px',
 
