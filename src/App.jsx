@@ -31,7 +31,7 @@ const Card = () => {
         </div>
         <button
           id="addCart"
-          className="rounded-2xl border-2 border-nextbtn p-btnpad text-btnTxt"
+          className="rounded-2xl border-2 mt-2 border-nextbtn p-btnpad text-btnTxt"
         >
           Add to Cart
         </button>

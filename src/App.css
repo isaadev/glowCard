@@ -18,10 +18,12 @@ body{
 }
 
 
-#addCart:hover {
+#addCart:hover,
+#addCart:focus {
     background-color: #DCC7DD;
     color: black;
 }
+
 
 /* transition */
 #addCart {
