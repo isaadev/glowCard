@@ -80,7 +80,7 @@ const ConsumerProductPage = () => {
           <div id="top-div" className={`min-h-top flex justify-center`}>
             <ProfileHeader />
           </div>
-          <div id="middle-div" className='flex-auto min-h-middle grid grid-cols-3 grid-rows-2 justify-items-center items-center'>
+          <div id="middle-div" className='flex-auto min-h-middle grid grid-cols-3 grid-rows-2 justify-items-center items-center px-72'>
             <Card/>
             <Card/>
             <Card/>
