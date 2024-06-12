@@ -1,10 +1,8 @@
 import React from "react";
 import "./App.css";
-import ProductCard from "./components/ProductCard.jsx";
-
 
 // card
-const Card = () => {
+const ProductCard = () => {
   return (
     <div
       className="
@@ -81,12 +79,12 @@ const ConsumerProductPage = () => {
             <ProfileHeader />
           </div>
           <div id="middle-div" className='flex-auto min-h-middle grid grid-cols-3 grid-rows-2 justify-items-center items-center px-72'>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
+            <ProductCard/>
+            <ProductCard/>
+            <ProductCard/>
+            <ProductCard/>
+            <ProductCard/>
+            <ProductCard/>
           </div>
           <button id="bottom-div"
                   className='self-center rounded-2xl
