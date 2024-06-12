@@ -13,7 +13,7 @@ export default {
         'cardpad': '1.5rem',
         'cardwidth': '240px',
         'cardHeight': '320px',
-        'profileW': '1575px'
+        'profileW': '1200px'
 
       },
       fontSize: {
