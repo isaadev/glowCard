@@ -13,7 +13,12 @@ export default {
         'cardpad': '1.5rem',
         'cardwidth': '240px',
         'cardHeight': '320px',
-        'profileW': '1200px'
+        'profileW': '1200px',
+        'maxintroCardW':'703px',
+        'maxintroCardH':'407px',
+        'minintroCardH':'200px',
+        'minintroCardW':'200px',
+
 
       },
       fontSize: {
@@ -24,6 +29,13 @@ export default {
       },
       colors: {
         'nextbtn': '#DCC7DD'
+      },
+      screens: {
+        'xs' : '320px',
+        'sm': '640px',
+        'md': '768px',
+        'lg': '1024px',
+        'xl': '1280px',
       }
     },
 
