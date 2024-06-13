@@ -1,38 +1,42 @@
-import React from "react";
-import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
-import "./ProductCard.css"
-import cartIcon from "../cart.svg";
+import React from 'react';
+import './ProductCard.css';
 
-const ProductCard = (props) => {
+
+const ProductCard = () => {
   return (
-      <Card
-          className="card rounded-2xl p-5"
-          style={{
-            minWidth: "13rem",
-            minHeight: "16rem",
-          }}
+      <div id='card'
+           className="
+     rounded-3xl
+    flex flex-col justify-between
+    min-h-cardHeight max-h-cardHeight min-w-cardwidth p-cardpad
+    my-5 desktop:my-3 table:my-3
+     "
       >
-        <div className="top-text flex flex-row justify-between mb-5">
-          <div className="warrant-status">Warranted</div>
-          <div className="price place-self-end">$15</div>
-        </div>
-        <Card.Img variant="top" src="holder.js/100px180" className="" />
-        <Card.Body className="flex flex-col items-center justify-between">
-          <div>
-            <Card.Title className="product-text p-2">Item 1</Card.Title>
-            <Card.Text className="seller-text p-1">Seller: Jinwoo</Card.Text>
+        <div id="top-text" className="flex flex-row justify-between text-topTxt">
+          <div id="warrant-status" className="">
+            Warranted
           </div>
-          <Button
-              variant="primary"
-              className="add-to-cart-btn-text mt-2 p-4 flex items-center"
+          <div id="productPrice" className="">
+            $15
+          </div>
+        </div>
+        <img src="" />
+        <div id="product-info" className="items-center text-center">
+          <div id="productName" className="p-0.5 text-productTxt">
+            Leather Bag
+          </div>
+          <div id="sellerName" className="p-0.5 text-sellerTxt">
+            Seller: Satoru
+          </div>
+          <button
+              id="addCart"
+              className="rounded-2xl border-2 border-nextbtn p-btnpad mt-2 text-cartTxt"
           >
-            <img src={cartIcon} alt="Cart" className="cart-icon mr-2" />
             Add to Cart
-          </Button>
-        </Card.Body>
-      </Card>
-  )
+          </button>
+        </div>
+      </div>
+  );
 }
 
-export default ProductCard;
+export default ProductCard

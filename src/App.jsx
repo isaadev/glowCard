@@ -1,35 +1,57 @@
 import React from "react";
-import Button from "react-bootstrap/Button";
-import Card from "react-bootstrap/Card";
 import "./App.css";
-import cartIcon from "./cart.svg";
-import ProductCard from "./components/ProductCard";
+import ProfileHeader from "./components/ProfileHeader";
+import ProductCard from "./components/ProductCard.jsx";
+// card
 
-function BasicExample() {
+
+const ConsumerProductPage = () => {
+
   return (
       <>
-        <ProductCard/>
-      </>
+        <div id='body-container' className='min-h-screen flex flex-col'>
+          <div id="top-div" className={`min-h-top flex justify-center`}>
+            <ProfileHeader />
+          </div>
 
-  );
+          <div id="middle-div"
+               className='
+               flex-auto justify-items-center items-center
+               grid grid-cols-1
+               min-h-middle
+
+               desktop:px-52 tablet:px-32
+               tablet:grid-cols-2 desktop:grid-cols-3'>
+            <ProductCard/>
+            <ProductCard/>
+            <ProductCard/>
+            <ProductCard/>
+            <ProductCard/>
+            <ProductCard/>
+          </div>
+
+          <div className="flex justify-center">
+            <button
+                id="bottom-div"
+                className="
+              self-center rounded-2xl
+              w-40 min-h-bottom
+              bg-nextbtn text-black tablet:w-32 tablet:min-h-smBottom
+            "
+            >
+              Next
+            </button>
+          </div>
+        </div>
+      </>
+  )
 }
+
 
 function App() {
   return (
       <>
-        <head>
-          <link
-              href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
-              rel="stylesheet"
-          />
-        </head>
-        <div className="profile-container max-w-64 border-2 rounded-2xl position-fixed top-0">
-          Test
-        </div>
-
-        <div className="flex items-center justify-center ">
-          <BasicExample/>
-        </div>
+        <ConsumerProductPage/>
       </>
   );
 }
