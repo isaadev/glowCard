@@ -1,5 +1,7 @@
 import React from "react";
 import "./App.css";
+import Instructions from "./components/Instructions.jsx";
+import IntroPage from "./components/IntroPage.jsx";
 import ProfileHeader from "./components/ProfileHeader";
 import ProductCard from "./components/ProductCard.jsx";
 // card
@@ -42,17 +44,20 @@ const ConsumerProductPage = () => {
               Next
             </button>
           </div>
-        </div>
-      </>
-  )
-}
+      </div>
+    </>
+  );
+};
 
 
 function App() {
   return (
-      <>
-        <ConsumerProductPage/>
-      </>
+    <>
+      {/* <ConsumerProductPage/> */}
+      {/* <IntroPage /> */}
+
+      <Instructions />
+    </>
   );
 }
 
