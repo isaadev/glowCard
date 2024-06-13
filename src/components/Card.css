@@ -2,7 +2,7 @@ body{
     color:#FFFFFF
 }
 
-#card {
+.card {
     background-color: black;
     box-shadow: 0 0 10px rgba(220, 199, 221, 1),
         /* white glow */

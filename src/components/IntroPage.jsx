@@ -1,3 +1,6 @@
+import React from 'react';
+import './Card.css'
+
 const IntroPage = () => {
   return (
     <div
@@ -6,7 +9,7 @@ const IntroPage = () => {
     >
       <div
         id="intro-card-container"
-        className="card 
+        className="card
         rounded-3xl flex flex-col 
          p-12 justify-items-center 
         xl:w-maxintroCardW xl:h-maxintroCardH lg:w-maxintroCardW lg:h-maxintroCardH md:w-maxintroCardW md:h-maxintroCardH xs:w-26 xs:h-maxintroCardH m-12"

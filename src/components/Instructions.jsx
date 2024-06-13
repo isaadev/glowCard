@@ -1,3 +1,6 @@
+import React from 'react';
+import './Card.css'
+
 // second page - instructions
 const Instructions = () => {
   return (

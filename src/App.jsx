@@ -53,10 +53,9 @@ const ConsumerProductPage = () => {
 function App() {
   return (
     <>
-      {/* <ConsumerProductPage/> */}
+       <ConsumerProductPage/>
       {/* <IntroPage /> */}
-
-      <Instructions />
+      {/*<Instructions />*/}
     </>
   );
 }

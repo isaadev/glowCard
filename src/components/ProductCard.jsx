@@ -1,12 +1,12 @@
 import React from 'react';
-import './ProductCard.css';
+import './Card.css';
 
 
 const ProductCard = () => {
   return (
-      <div id='card'
+      <div id='ProductCard'
            className="
-     rounded-3xl
+    card rounded-3xl
     flex flex-col justify-between
     min-h-cardHeight max-h-cardHeight min-w-cardwidth p-cardpad
     my-5 desktop:my-3 table:my-3
