@@ -84,10 +84,10 @@ const ProducerPage = () => {
               <span className="text-blue-600">advertise</span>?
             </p>
             <div className="flex flex-row justify-around">
-              <button className="bg-blue-600 text-white p-4 text-sm rounded-2xl max-w-28">
+              <button className="bg-blue-600 text-white p-3 text-xs rounded-2xl max-w-28">
                 Low Quality (cost: <span className="text-green-300">$3</span>)
               </button>
-              <button className="bg-blue-600 text-white p-4 text-sm rounded-2xl max-w-28">
+              <button className="bg-blue-600 text-white p-3 text-xs rounded-2xl max-w-28">
                 High Quality (cost: <span className="text-green-300">$5</span>)
               </button>
             </div>
