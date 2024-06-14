@@ -24,14 +24,54 @@ const ProducerPage = () => {
                tablet:grid-cols-2 desktop:grid-cols-4"
         >
           <div
-            id=""
+            id="instructions"
             className="flex flex-col justify-around text-center
             min-h-producerCardH max-h-producerCardH min-w-producerCardW max-w-producerCardW 
             p-cardpad border-2 border-red-800"
           >
-            <p>ur being a bitch</p>
-            <img src="" alt="payoffmatrix"/>
-           
+            <p>
+              In this stage, choose what quality to produce x and how you want
+              to advertise it. Goal: maximize profit.
+            </p>
+            <img src="ok" alt="payoffmatrix" />
+          </div>
+
+          <div
+            id="producerHistory"
+            className="flex flex-col justify-around text-center
+            min-h-producerCardH max-h-producerCardH min-w-producerCardW max-w-producerCardW 
+            p-cardpad border-2 border-red-800"
+          >
+            <p>placeholder</p>
+            <img src="ok" alt="payoffmatrix" />
+          </div>
+
+          <div
+            id="producerQuality"
+            className="flex flex-col justify-between text-center
+            min-h-producerCardH max-h-producerCardH min-w-producerCardW max-w-producerCardW 
+            p-cardpad border-2 border-red-800"
+          >
+            <p>What quality would you like to produce?</p>
+            <button className="border-2 border-red-400">Low Quality</button>
+            <button className="border-2 border-red-400">High Quality</button>
+
+            <div className="self-center">
+              <img src="/public/bag.png" alt="insert img" className="object-cover w-producerImg h-producerImg"></img>
+            </div>
+          </div>
+
+          <div
+            id="adQuality-warrant"
+            className="flex flex-col justify-around text-center
+            min-h-producerCardH max-h-producerCardH min-w-producerCardW max-w-producerCardW 
+            p-cardpad border-2 border-red-800"
+          >
+            <p>
+              In this stage, choose what quality to produce x and how you want
+              to advertise it. Goal: maximize profit.
+            </p>
+            <img src="ok" alt="payoffmatrix" />
           </div>
         </div>
 
@@ -40,7 +80,7 @@ const ProducerPage = () => {
             id="bottom-div"
             className="
               self-center rounded-2xl w-40 text-xs
-               bg-blue-600 text-white tablet:w-32 mb-3 py-4
+            bg-blue-600 text-white tablet:w-32 mb-3 py-4
             "
           >
             Next >
