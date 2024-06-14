@@ -10,40 +10,41 @@ import ProductCard from "./components/ProductCard.jsx";
 const ConsumerProductPage = () => {
 
   return (
-      <>
-        <div id='body-container' className='min-h-screen flex flex-col'>
-          <div id="top-div" className={`min-h-top flex justify-center`}>
-            <ProfileHeader />
-          </div>
+    <>
+      <div id="body-container" className="min-h-screen flex flex-col">
+        <div id="top-div" className={`min-h-top flex justify-center`}>
+          <ProfileHeader />
+        </div>
 
-          <div id="middle-div"
-               className='
+        <div
+          id="middle-div"
+          className="
                flex-auto justify-items-center items-center
                grid grid-cols-1
                min-h-middle
 
                desktop:px-52 tablet:px-32
-               tablet:grid-cols-2 desktop:grid-cols-3'>
-            <ProductCard/>
-            <ProductCard/>
-            <ProductCard/>
-            <ProductCard/>
-            <ProductCard/>
-            <ProductCard/>
-          </div>
+               tablet:grid-cols-2 desktop:grid-cols-3"
+        >
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
+        </div>
 
-          <div className="flex justify-center">
-            <button
-                id="bottom-div"
-                className="
-              self-center rounded-2xl
-              w-40 min-h-bottom
-              bg-nextbtn text-black tablet:w-32 tablet:min-h-smBottom
+        <div className="flex justify-center min-h-bottom tablet:min-h-smBottom">
+          <button
+            id="bottom-div"
+            className="
+              self-center rounded-2xl w-40 text-xs
+              border-2 border-nextbtn text-nextbtn  tablet:w-32 mb-3 py-4 
             "
-            >
-              Next
-            </button>
-          </div>
+          >
+            Next >
+          </button>
+        </div>
       </div>
     </>
   );
@@ -53,9 +54,9 @@ const ConsumerProductPage = () => {
 function App() {
   return (
     <>
-       <ConsumerProductPage/>
-      {/* <IntroPage /> */}
-      {/*<Instructions />*/}
+      <IntroPage />
+      <Instructions />
+      <ConsumerProductPage />
     </>
   );
 }

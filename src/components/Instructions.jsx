@@ -29,7 +29,7 @@ const Instructions = () => {
             </p>
           </div>
           <div className="mb-5">
-            <button className="rounded-2xl border-2 bg-nextbtn text-black p-btnpad text-sellerTxt">
+            <button id="nextBtn" className="rounded-2xl border-2 border-nextbtn text-nextbtn p-btnpad text-sellerTxt">
               Next >
             </button>
           </div>

@@ -19,12 +19,13 @@ const IntroPage = () => {
           <p className="text-xs pt-3">Enter your Player Identifier:</p>
           <input
             type="text"
+            id="player-identifier-box"
             placeholder="abc..."
             className="text-center my-6 text-xs text-gray-600 rounded-2xl bg-black border-2 border-gray-600 p-4 w-full sm:w-auto sm:flex-grow"
           />
           <div>
-            <button className="rounded-2xl border-2 bg-nextbtn text-black p-btnpad text-btnTxt ">
-              Next (ic)
+            <button id="nextBtn" className="rounded-2xl border-2 border-nextbtn text-nextbtn p-btnpad text-sellerTxt ">
+              Next >
             </button>
           </div>
         </div>

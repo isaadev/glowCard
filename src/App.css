@@ -1,0 +1,29 @@
+/* animation */
+#player-identifier-box:hover {
+    color: #DCC7DD;
+    box-shadow: 0 0 10px rgba(220, 199, 221, 1),
+        /* white glow */
+        0 0 20px rgb(210, 175, 213)
+}
+
+#player-identifier-box:focus {
+    outline-style: none;
+}
+
+
+#player-identifier-box {
+    transition: .55s;
+}
+
+/* next btn animation */
+
+#bottom-div:hover, #bottom-div:focus, 
+#nextBtn:hover, #nextBtn:focus {
+    background-color: #DCC7DD;
+    color: black;
+    
+}
+
+#bottom-div,#nextBtn {
+    transition: .4s;
+}
