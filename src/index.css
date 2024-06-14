@@ -13,9 +13,10 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 :root {
-  font-family: 'Press Start 2P', cursive;
   line-height: 1.5;
-  font-weight: 400;
+  /*font-family: 'Futura-PT', cursive;*/
+  /*font-weight: 700;*/
+  font-family: "Russo One", sans-serif;
 
 
   font-synthesis: none;
