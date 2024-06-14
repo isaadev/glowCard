@@ -39,7 +39,7 @@ const ConsumerProductPage = () => {
             id="bottom-div"
             className="
               self-center rounded-2xl w-40 text-xs
-              border-2 border-nextbtn text-nextbtn  tablet:w-32 mb-3 py-4 
+              border-2 border-orange-400 text-orange-400 ablet:w-32 mb-3 py-4 
             "
           >
             Next >

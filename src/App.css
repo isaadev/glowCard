@@ -1,9 +1,9 @@
 /* animation */
 #player-identifier-box:hover {
     color: #DCC7DD;
-    box-shadow: 0 0 10px rgba(220, 199, 221, 1),
-        /* white glow */
-        0 0 20px rgb(210, 175, 213)
+    box-shadow: 0 0 10px rgb(22, 88, 229),
+            /* white glow */
+            0 0 20px #1658e5;
 }
 
 #player-identifier-box:focus {
@@ -19,7 +19,7 @@
 
 #bottom-div:hover, #bottom-div:focus, 
 #nextBtn:hover, #nextBtn:focus {
-    background-color: #DCC7DD;
+    background-color: #1658e5;
     color: black;
     
 }
