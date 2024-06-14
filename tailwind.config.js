@@ -39,7 +39,7 @@ export default {
         // For profile header
         'desktop': '1rem',
         'tablet': '0.8rem',
-        'mobile': '0.40rem'
+        'mobile': '0.65rem'
       },
       colors: {
         'nextbtn': '#DCC7DD'
