@@ -6,7 +6,7 @@ const ProfileHeader = () => {
       <div id='Profile-container'
            className='
            flex justify-between self-center
-           border-2 border-black rounded-full
+           border-2 border-black bg-white rounded-full
            desktop:w-desktop tablet:w-tablet w-96
 
            min-h-12 desktop:min-h-top tablet:min-h-top

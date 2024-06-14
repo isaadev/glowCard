@@ -23,8 +23,8 @@ const Instructions = () => {
             /producer
           </p>
           <div className="border-2 rounded-2xl border-blue-600 p-4 lg:w-80 xs:w-60 mx-auto my-6">
-            <p className="text-base mb-2">Consumer</p>
-            <p className="text-xs text-gray-400">
+            <p className="text-base mb-2 text-blue-600">Consumer</p>
+            <p className="text-xs text-gray-600">
               As a consumer, you will have to purchase the highest quality
               product and try NOT to be scammed by the producer.
             </p>

@@ -23,7 +23,7 @@ const ProductCard = () => {
       </div>
       <img src="" />
       <div id="product-info" className="items-center text-center">
-        <div id="productName" className="p-0.5 text-xl">
+        <div id="productName" className="p-0.5 text-base">
           Leather Bag
         </div>
         <div id="sellerName" className="p-0.5 text-sm">
