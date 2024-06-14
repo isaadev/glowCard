@@ -5,6 +5,7 @@ import IntroPage from "./components/IntroPage.jsx";
 import ProfileHeader from "./components/ProfileHeader";
 import ProductCard from "./components/ProductCard.jsx";
 import ConsumerProductPage from "./components/ConsumerChoice.jsx";
+import ProducerPage from "./components/ProducerPage.jsx";
 
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
     <>
       {/* <IntroPage /> */}
       {/* <Instructions /> */}
-      <ConsumerProductPage />
+      {/* <ConsumerProductPage /> */}
+      <ProducerPage />
     </>
   );
 }

@@ -26,6 +26,10 @@ export default {
         // Profile header width
         desktop: "1200px",
         tablet: "780px",
+
+        // ProducerPage Card Dimensions
+        producerCardW: "345px",
+        producerCardH: "580px",
       },
       fontSize: {
         // For product cards only
