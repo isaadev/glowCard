@@ -17,12 +17,12 @@ const Instructions = () => {
          md:w-maxintroCardW md:h-maxintroCardH xs:w-26 xs:h-maxintroCardH "
       >
         <div className="text-center">
-          <p className="text-3xl text-purple-600 mb-8">How to Play</p>
+          <p className="text-3xl text-blue-600 mb-8">How to Play</p>
           <p className="text-lg pt-3">
-            You will play as a <span className="text-purple-600">consumer</span>
+            You will play as a <span className="text-blue-600">consumer</span>
             /producer
           </p>
-          <div className="border-2 rounded-2xl border-nextbtn p-4 lg:w-80 xs:w-60 mx-auto my-6">
+          <div className="border-2 rounded-2xl border-blue-600 p-4 lg:w-80 xs:w-60 mx-auto my-6">
             <p className="text-base mb-2">Consumer</p>
             <p className="text-xs text-gray-400">
               As a consumer, you will have to purchase the highest quality
@@ -30,7 +30,10 @@ const Instructions = () => {
             </p>
           </div>
           <div className="mb-5">
-            <button id="nextBtn" className="rounded-2xl border-2 border-nextbtn text-base py-2 px-5 text-sellerTxt">
+            <button
+              id="nextBtn"
+              className="rounded-2xl bg-blue-600 text-base py-2 px-5 text-white text-sellerTxt"
+            >
               Next >
             </button>
           </div>

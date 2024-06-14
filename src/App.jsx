@@ -5,14 +5,13 @@ import IntroPage from "./components/IntroPage.jsx";
 import ProfileHeader from "./components/ProfileHeader";
 import ProductCard from "./components/ProductCard.jsx";
 import ConsumerProductPage from "./components/ConsumerChoice.jsx";
-// card
 
 
 function App() {
   return (
     <>
-      {/*<IntroPage />*/}
-      {/*<Instructions />*/}
+      {/* <IntroPage /> */}
+      {/* <Instructions /> */}
       <ConsumerProductPage />
     </>
   );

@@ -14,10 +14,10 @@ const ProductCard = () => {
      "
     >
       <div id="top-text" className="flex flex-row justify-between text-topTxt">
-        <div id="warrant-status" className="text-base">
+        <div id="warrant-status" className="text-sm p-1 px-2 rounded-full bg-blue-600 text-white">
           Warranted
         </div>
-        <div id="productPrice" className="text-base">
+        <div id="productPrice" className="text-base text-blue-600">
           $15
         </div>
       </div>
@@ -27,11 +27,11 @@ const ProductCard = () => {
           Leather Bag
         </div>
         <div id="sellerName" className="p-0.5 text-sm">
-          <span className="text-gray-500">Seller:</span> <span className="text-fuchsia-400">Satoru</span>
+          <span className="text-gray-500">Seller:</span> <span className="text-blue-600">Satoru</span>
         </div>
         <button
           id="addCart"
-          className="rounded-2xl border-2 border-nextbtn p-btnpad mt-2 text-xs"
+          className="rounded-2xl bg-nextbtn p-btnpad mt-2 text-xs"
         >
           Add to Cart
         </button>

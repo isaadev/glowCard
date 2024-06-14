@@ -1,29 +1,26 @@
-body{
-    color:#FFFFFF
-}
 
 .card {
-    background-color: black;
-    box-shadow: 0 0 10px rgba(220, 199, 221, 1),
+    background-color: white;    
+    box-shadow: 0 0 10px rgb(11, 49, 174),
         /* white glow */
-    0 0 20px rgb(210, 175, 213),
+    0 0 20px rgb(11, 49, 174),
     0 0 25px rgb(155, 152, 156);
 }
 
-#warrant-status {
+/* #warrant-status {
     text-shadow: 0 0 5px #19cedd,
     0 0 10px #19cedd,
     0 0 20px #19cedd
-}
+} */
 
 
 #addCart:hover {
-    background-color: #DCC7DD;
+    background-color: #ffa41c;
     color: black;
 }
 
-/* transition */
+
 #addCart {
     transition: 0.5s;
 }
-
+ 

@@ -18,18 +18,18 @@ const IntroPage = () => {
         xs:w-26 xs:h-maxintroCardH m-12"
       >
         <div className="text-center">
-          <p className="text-3xl text-purple-600 mb-14">Game</p>
+          <p className="text-3xl text-blue-600 mb-14">Game</p>
           <p className="text-lg pt-3">Enter your Player Identifier:</p>
           <input
             type="text"
             id="player-identifier-box"
             placeholder="abc..."
             className="text-center my-6 text-xs text-gray-600
-            rounded-2xl bg-black border-2 border-gray-600 p-4 w-full
+            rounded-2xl bg-white border-2 border-gray-600 p-4 w-full
             sm:w-auto sm:flex-grow"
           />
           <div>
-            <button id="nextBtn" className="rounded-2xl border-2 border-nextbtn text-lg py-2 px-5 text-sellerTxt ">
+            <button id="nextBtn" className="rounded-2xl bg-blue-600 text-white text-lg py-2 px-5 text-sellerTxt ">
               Next >
             </button>
           </div>
