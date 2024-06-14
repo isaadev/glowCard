@@ -29,7 +29,7 @@ export default {
 
         // ProducerPage Card Dimensions
         producerCardW: "345px",
-        producerCardH: "580px",
+        producerCardH: "550px",
 
         producerImg: "200px"
       },

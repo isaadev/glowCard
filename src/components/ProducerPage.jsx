@@ -20,58 +20,95 @@ const ProducerPage = () => {
                min-h-middle
                
 
-               desktop:px-12 tablet:px-32
+               desktop:px-1 tablet:px-32
                tablet:grid-cols-2 desktop:grid-cols-4"
         >
           <div
             id="instructions"
-            className="flex flex-col justify-around text-center
+            className="card flex flex-col justify-around text-center
             min-h-producerCardH max-h-producerCardH min-w-producerCardW max-w-producerCardW 
-            p-cardpad border-2 border-red-800"
+            p-cardpad
+            rounded-3xl p-3"
           >
             <p>
               In this stage, choose what quality to produce x and how you want
-              to advertise it. Goal: maximize profit.
+              to advertise it. Goal: maximize{" "}
+              <span className="text-green-600">profit</span>.
             </p>
             <img src="ok" alt="payoffmatrix" />
           </div>
 
           <div
             id="producerHistory"
-            className="flex flex-col justify-around text-center
+            className="card flex flex-col justify-around text-center
             min-h-producerCardH max-h-producerCardH min-w-producerCardW max-w-producerCardW 
-            p-cardpad border-2 border-red-800"
+            p-10 rounded-3xl"
           >
             <p>placeholder</p>
-            <img src="ok" alt="payoffmatrix" />
           </div>
 
           <div
             id="producerQuality"
-            className="flex flex-col justify-between text-center
+            className="card flex flex-col justify-between text-center
             min-h-producerCardH max-h-producerCardH min-w-producerCardW max-w-producerCardW 
-            p-cardpad border-2 border-red-800"
+            p-10 rounded-3xl"
           >
-            <p>What quality would you like to produce?</p>
-            <button className="border-2 border-red-400">Low Quality</button>
-            <button className="border-2 border-red-400">High Quality</button>
+            <p>
+              What quality would you like to{" "}
+              <span className="text-blue-600">produce</span>?
+            </p>
+            <button className="bg-blue-600 text-white text-sm p-3 rounded-2xl">
+              Low Quality (cost: <span className="text-green-300">$3</span>)
+            </button>
+            <button className="bg-blue-600 text-white text-sm p-3 rounded-2xl">
+              High Quality (cost: <span className="text-green-300">$5</span>)
+            </button>
 
             <div className="self-center">
-              <img src="/public/bag.png" alt="insert img" className="object-cover w-producerImg h-producerImg"></img>
+              <img
+                src="/public/bag.png"
+                alt="insert img"
+                className="object-cover w-producerImg h-producerImg"
+              ></img>
             </div>
           </div>
 
           <div
             id="adQuality-warrant"
-            className="flex flex-col justify-around text-center
+            className="card flex flex-col justify-between text-center
             min-h-producerCardH max-h-producerCardH min-w-producerCardW max-w-producerCardW 
-            p-cardpad border-2 border-red-800"
+            p-10 rounded-3xl"
           >
             <p>
-              In this stage, choose what quality to produce x and how you want
-              to advertise it. Goal: maximize profit.
+              What quality would you like to{" "}
+              <span className="text-blue-600">advertise</span>?
             </p>
-            <img src="ok" alt="payoffmatrix" />
+            <div className="flex flex-row justify-around">
+              <button className="bg-blue-600 text-white p-4 text-sm rounded-2xl max-w-28">
+                Low Quality (cost: <span className="text-green-300">$3</span>)
+              </button>
+              <button className="bg-blue-600 text-white p-4 text-sm rounded-2xl max-w-28">
+                High Quality (cost: <span className="text-green-300">$5</span>)
+              </button>
+            </div>
+            <hr className="w-56 self-center"></hr>
+            <p>Would you like to warrant this product?</p>
+            <div className="flex flex-row justify-around">
+              <button className="bg-blue-600 text-white p-2 text-sm rounded-2xl w-28 max-w-28">
+                Yes
+              </button>
+              <button className="bg-blue-600 text-white p-2 text-sm rounded-2xl w-28 max-w-28">
+                No
+              </button>
+            </div>
+
+            <div className="self-center">
+              <img
+                src="/public/bag.png"
+                alt="insert img"
+                className="object-cover w-producerImg h-producerImg"
+              ></img>
+            </div>
           </div>
         </div>
 

@@ -6,7 +6,7 @@ body, #intro-container{
     color: #0b31ae;
     box-shadow: 0 0 10px #19319e,
         /* white glow */
-        0 0 20px rgb(52, 52, 52)
+        0 0 20px #343434
 }
 
 #player-identifier-box:focus {
@@ -29,4 +29,11 @@ body, #intro-container{
 
 #bottom-div,#nextBtn {
     transition: .4s;
+}
+
+
+/* line between ad quality and warrant */
+hr {
+    border-color: #bababa;
+    
 }
