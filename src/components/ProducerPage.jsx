@@ -8,7 +8,7 @@ const ProducerPage = () => {
         id="body-container"
         className="min-h-screen flex flex-col bg-offwhite"
       >
-        <div id="top-div" className={`min-h-top flex justify-center`}>
+        <div id="top-div" className={`min-h-top flex justify-center mt-1`}>
           <ProfileHeader />
         </div>
 
@@ -18,18 +18,15 @@ const ProducerPage = () => {
                flex-auto justify-items-center items-center
                grid grid-cols-1
                min-h-middle
-               
 
-               desktop:px-1 tablet:px-32
-               tablet:grid-cols-2 desktop:grid-cols-4"
-        >
+               desktop:px-0 tablet:px-0
+               tablet:grid-cols-2 desktoplg:grid-cols-4">
           <div
             id="instructions"
             className="card flex flex-col justify-around text-center
             min-h-producerCardH max-h-producerCardH min-w-producerCardW max-w-producerCardW 
-            p-cardpad
-            rounded-3xl p-3"
-          >
+            p-cardpad my-2
+            rounded-3xl">
             <p>
               In this stage, choose what quality to produce x and how you want
               to advertise it. Goal: maximize{" "}
@@ -116,8 +113,8 @@ const ProducerPage = () => {
           <button
             id="bottom-div"
             className="
-              self-center rounded-2xl w-40 text-xs
-            bg-blue-600 text-white tablet:w-32 mb-3 py-4
+              self-center rounded-2xl w-40 text-sm
+            bg-blue-600 text-white tablet:w-32 my-2 py-4
             "
           >
             Next >

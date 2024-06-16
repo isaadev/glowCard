@@ -58,6 +58,7 @@ export default {
       },
     },
     screens: {
+      desktoplg: "1450px",
       desktop: "1280px",
       tablet: "800px",
     },

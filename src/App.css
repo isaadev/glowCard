@@ -1,6 +1,8 @@
-body, #intro-container{
+#intro-container{
     background-color: #EEEEEE;
 }
+
+
 /* animation */
 #player-identifier-box:hover {
     color: #0b31ae;
