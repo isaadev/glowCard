@@ -32,7 +32,6 @@ const ProducerFeedback = () => {
               self-center rounded-2xl w-40 text-xs
             bg-blue-600 text-white tablet:w-32 mb-3 py-4
             "
-              onClick={}
           >
             Next {">"}
           </button>

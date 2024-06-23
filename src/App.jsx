@@ -6,6 +6,7 @@ import ProfileHeader from "./components/ProfileHeader";
 import ProductCard from "./components/ProductCard.jsx";
 import ConsumerProductPage from "./components/ConsumerChoice.jsx";
 import ProducerPage from "./components/ProducerPage.jsx";
+import ProducerFeedback from "./components/ProducerFeedback.jsx";
 
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
       {/* <IntroPage /> */}
       {/* <Instructions /> */}
       {/* <ConsumerProductPage /> */}
-      <ProducerPage />
+      {/*<ProducerPage />*/}
+      <ProducerFeedback/>
     </>
   );
 }
