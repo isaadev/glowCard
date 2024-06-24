@@ -7,8 +7,9 @@ const ProfileHeader = () => {
            className='
            flex justify-between self-center
            border-2 border-black bg-white rounded-full
-           desktop:w-desktop tablet:w-tablet w-96
+           my-1
 
+           desktop:w-desktop tablet:w-tablet w-96
            min-h-12 desktop:min-h-top tablet:min-h-top
            text-mobile desktop:text-desktop tablet:text-tablet
            '>

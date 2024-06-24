@@ -1,5 +1,4 @@
 import ProfileHeader from "./ProfileHeader.jsx";
-import ProductCard from "./ProductCard.jsx";
 import React from "react";
 
 const ProducerFeedback = () => {
@@ -75,7 +74,7 @@ const ProducerFeedback = () => {
           id="bottom-div"
           className="
               self-center rounded-2xl w-40 text-xs
-            bg-blue-600 text-white tablet:w-32 mb-3 py-4
+            bg-blue-600 text-white tablet:w-32 my-1 py-4
             "
         >
           Next {">"}

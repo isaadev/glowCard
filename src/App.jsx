@@ -8,6 +8,7 @@ import ConsumerProductPage from "./components/ConsumerChoice.jsx";
 import ProducerPage from "./components/ProducerPage.jsx";
 import ProducerFeedback from "./components/ProducerFeedback.jsx";
 import ProducerFeedback2 from "./components/ProducerFeedback2.jsx";
+import ConsumerFeedback from "./components/ConsumerFeedback.jsx";
 
 
 function App() {
@@ -18,7 +19,8 @@ function App() {
       {/* <ConsumerProductPage /> */}
       {/*<ProducerPage />*/}
       {/* <ProducerFeedback/> */}
-      <ProducerFeedback2/>
+      {/*<ProducerFeedback2/>*/}
+      <ConsumerFeedback/>
     </>
   );
 }
